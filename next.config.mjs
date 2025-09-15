@@ -9,6 +9,11 @@ const nextConfig = {
 				destination: "/privacy-policy-grace-at-home",
 				permanent: true,
 			},
+			{
+				source: '/GUIDE',
+				destination: 'guide.getgraceathome.care',
+				permanent: true,
+			  },
 		];
 	},
 };
