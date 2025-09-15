@@ -11,7 +11,7 @@ const nextConfig = {
 			},
 			{
 				source: '/GUIDE',
-				destination: 'guide.getgraceathome.care',
+				destination: "https://guide.getgraceathome.care",
 				permanent: true,
 			  },
 		];
