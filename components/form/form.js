@@ -8,7 +8,7 @@ const Form = ({ page }) => {
 			heading: "Join <em>our family</em>",
 			image: "images/ManWomanHugging.jpg",
 			paragraph:
-				"Every day, we’re committed to your health and well-being—<em>because to us, you’re family.</em> <br> We’ll provide you with personalized care, ensuring you have access to medical, mental health, and community services.",
+				"<p>Every day, we’re committed to your health and well-being—<em>because to us, you’re family.</em> <br> We’ll provide you with personalized care, ensuring you have access to medical, mental health, and community services.</p>",
 			form: "https://form.jotform.com/251200129131135",
 			class: "family",
 		};
@@ -24,6 +24,18 @@ const Form = ({ page }) => {
 		};
 	}
 
+	if (page === "aco") {
+		content = {
+			heading: "ACO <em>Reach</em>",
+			image: "",
+			paragraph:
+				"<p>Want to make your Medicare services easier, more convenient, and cost effective?</p>" +
+				"<p>To take advantage of this program, call CINQCARE ACO REACH at 1-800-922-7022 or complete the form.</p>",
+			form: "https://form.jotform.com/251200129131135",
+			class: "family",
+		};
+	}
+
 	return (
 		<section className={styles.section_Form}>
 			<div className={styles.container_Form}>
@@ -33,7 +45,7 @@ const Form = ({ page }) => {
 					)}
 					{content.image && <img src={content.image} />}
 					{content.paragraph && (
-						<p dangerouslySetInnerHTML={{ __html: content.paragraph }} />
+						<div dangerouslySetInnerHTML={{ __html: content.paragraph }} />
 					)}
 				</div>
 				<div className={styles.form_Form}>
