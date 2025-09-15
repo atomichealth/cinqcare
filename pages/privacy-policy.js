@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
 
 			<main className="gradient--top">
 				<section page={currentPage}>
-					<div className="wrapper">
+					<div className="wrapper" style={{maxWidth:1000}}>
 						<h1>CINQCARE Privacy Policy</h1>
 
 						<p>

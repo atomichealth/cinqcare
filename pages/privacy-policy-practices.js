@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
 
 			<main className="gradient--top">
 				<section page={currentPage}>
-					<div className="wrapper">
+					<div className="wrapper" style={{maxWidth:1000}}>
 						<h2>CARE AT HOME</h2>
 						<h3>NOTICE OF PRIVACY PRACTICES</h3>
 						<p style={{ fontWeight: "600" }}>

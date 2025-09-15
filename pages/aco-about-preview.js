@@ -34,7 +34,7 @@ export default function ACOAbout() {
 
 			<main className="gradient--top">
 				<section page="privacy-policy">
-					<div className="wrapper">
+					<div className="wrapper" style={{maxWidth:1000}}>
 						<h1>ACO Reach <em>Information</em></h1>
 
 						<p><strong>CINQCARE ACO REACH LLC</strong><br/>
