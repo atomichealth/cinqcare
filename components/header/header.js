@@ -27,6 +27,7 @@ const Header = ({ headerBg }) => {
 
 	return (
 		<>
+			{/*
 			{currentPath !== "/join-our-family" && (
 				<a href="https://www.prnewswire.com/news-releases/cinqcare-announces-dr-jessica-henderson-boyd-as-cmo-302435110.html" target="_blank">
 					<div className={`${styles.notificationBar} ${" notificationBar"}`}>
@@ -36,11 +37,12 @@ const Header = ({ headerBg }) => {
 								<div className={styles.title}><span>Announcing Dr. Jessica Henderson Boyd as Chief Medical Officer</span></div>
 								<div className={styles.date}><span>April 23, 2025</span></div>
 							</div>
-							{/*<div className={styles.link}><span>Read More</span></div>*/}
+							*/}{/*<div className={styles.link}><span>Read More</span></div>*/}{/*
 						</div>
 					</div>
 				</a>
 			)}
+			*/}
 			<header id="header" className={`${styles.header} ${bgColor}`}>
 				<div className={`${styles.wrapper} ${" wrapper"}`}>
 					<div className={styles.headerNav}>
